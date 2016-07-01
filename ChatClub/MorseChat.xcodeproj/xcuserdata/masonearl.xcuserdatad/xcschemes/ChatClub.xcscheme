@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "189C68541D1DF1730023BA1F"
-               BuildableName = "ChatClub.app"
-               BlueprintName = "ChatClub"
-               ReferencedContainer = "container:ChatClub.xcodeproj">
+               BuildableName = "MorseChat.app"
+               BlueprintName = "MorseChat"
+               ReferencedContainer = "container:MorseChat.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "189C68541D1DF1730023BA1F"
-            BuildableName = "ChatClub.app"
-            BlueprintName = "ChatClub"
-            ReferencedContainer = "container:ChatClub.xcodeproj">
+            BuildableName = "MorseChat.app"
+            BlueprintName = "MorseChat"
+            ReferencedContainer = "container:MorseChat.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "189C68541D1DF1730023BA1F"
-            BuildableName = "ChatClub.app"
-            BlueprintName = "ChatClub"
-            ReferencedContainer = "container:ChatClub.xcodeproj">
+            BuildableName = "MorseChat.app"
+            BlueprintName = "MorseChat"
+            ReferencedContainer = "container:MorseChat.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "189C68541D1DF1730023BA1F"
-            BuildableName = "ChatClub.app"
-            BlueprintName = "ChatClub"
-            ReferencedContainer = "container:ChatClub.xcodeproj">
+            BuildableName = "MorseChat.app"
+            BlueprintName = "MorseChat"
+            ReferencedContainer = "container:MorseChat.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

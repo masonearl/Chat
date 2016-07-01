@@ -24,7 +24,7 @@
 		182D7E491D25CDEF00CA877E /* MessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageController.swift; sourceTree = "<group>"; };
 		18343E721D258EB1007DC404 /* ModelLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelLayer.swift; sourceTree = "<group>"; };
 		18343E741D25905A007DC404 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
-		189C68551D1DF1730023BA1F /* ChatClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		189C68551D1DF1730023BA1F /* MorseChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorseChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189C68581D1DF1730023BA1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		189C685D1D1DF1730023BA1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		189C685F1D1DF1730023BA1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		189C68561D1DF1730023BA1F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				189C68551D1DF1730023BA1F /* ChatClub.app */,
+				189C68551D1DF1730023BA1F /* MorseChat.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,9 +125,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		189C68541D1DF1730023BA1F /* ChatClub */ = {
+		189C68541D1DF1730023BA1F /* MorseChat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 189C68671D1DF1730023BA1F /* Build configuration list for PBXNativeTarget "ChatClub" */;
+			buildConfigurationList = 189C68671D1DF1730023BA1F /* Build configuration list for PBXNativeTarget "MorseChat" */;
 			buildPhases = (
 				189C68511D1DF1730023BA1F /* Sources */,
 				189C68521D1DF1730023BA1F /* Frameworks */,
@@ -137,9 +137,9 @@
 			);
 			dependencies = (
 			);
-			name = ChatClub;
+			name = MorseChat;
 			productName = ChatClub;
-			productReference = 189C68551D1DF1730023BA1F /* ChatClub.app */;
+			productReference = 189C68551D1DF1730023BA1F /* MorseChat.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -157,7 +157,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 189C68501D1DF1730023BA1F /* Build configuration list for PBXProject "ChatClub" */;
+			buildConfigurationList = 189C68501D1DF1730023BA1F /* Build configuration list for PBXProject "MorseChat" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -170,7 +170,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				189C68541D1DF1730023BA1F /* ChatClub */,
+				189C68541D1DF1730023BA1F /* MorseChat */,
 			);
 		};
 /* End PBXProject section */
@@ -316,7 +316,7 @@
 				INFOPLIST_FILE = ChatClub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mason.MorseChat;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MorseChat;
 			};
 			name = Debug;
 		};
@@ -327,14 +327,14 @@
 				INFOPLIST_FILE = ChatClub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mason.MorseChat;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MorseChat;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		189C68501D1DF1730023BA1F /* Build configuration list for PBXProject "ChatClub" */ = {
+		189C68501D1DF1730023BA1F /* Build configuration list for PBXProject "MorseChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				189C68651D1DF1730023BA1F /* Debug */,
@@ -343,7 +343,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		189C68671D1DF1730023BA1F /* Build configuration list for PBXNativeTarget "ChatClub" */ = {
+		189C68671D1DF1730023BA1F /* Build configuration list for PBXNativeTarget "MorseChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				189C68681D1DF1730023BA1F /* Debug */,
