@@ -6,9 +6,24 @@
 //  Copyright © 2016 trianglez. All rights reserved.
 //
 
-import CloudKit
+import Foundation
 
-class Message {
+class MessageObject {
     
-}
-
+    var value: String
+    var serverID: String
+    var ownerID: String
+    var date: NSDate
+    
+    init(value: String, serverID: String, ownerID: String, date: NSDate) {
+        self.value = value
+        self.serverID = serverID
+        self.ownerID = ownerID
+        self.date = date
+    }
+    
+    func description() -> String {
+         return value + " ID: " + serverID + " date: " + date.description
+    
+    }
+        }

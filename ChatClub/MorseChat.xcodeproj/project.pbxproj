@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		182D7E4A1D25CDEF00CA877E /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D7E491D25CDEF00CA877E /* MessageController.swift */; };
-		18343E731D258EB1007DC404 /* ModelLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18343E721D258EB1007DC404 /* ModelLayer.swift */; };
-		18343E751D25905A007DC404 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18343E741D25905A007DC404 /* Message.swift */; };
+		18343E751D25905A007DC404 /* MessageObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18343E741D25905A007DC404 /* MessageObject.swift */; };
+		184D8B1B1D26D2A2001BE66A /* CloudKitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D8B1A1D26D2A2001BE66A /* CloudKitData.swift */; };
 		189C68591D1DF1730023BA1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C68581D1DF1730023BA1F /* AppDelegate.swift */; };
 		189C685E1D1DF1730023BA1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189C685C1D1DF1730023BA1F /* Main.storyboard */; };
 		189C68601D1DF1730023BA1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189C685F1D1DF1730023BA1F /* Assets.xcassets */; };
@@ -18,14 +18,17 @@
 		18C48CF11D24B60800411CF6 /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C48CF01D24B60800411CF6 /* GroupsViewController.swift */; };
 		18C48CF31D24B61E00411CF6 /* DirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C48CF21D24B61E00411CF6 /* DirectoryViewController.swift */; };
 		18C48CF51D24B63000411CF6 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C48CF41D24B63000411CF6 /* ChatViewController.swift */; };
+		18F81F881D26D9C4000FF003 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F81F871D26D9C4000FF003 /* CloudKit.framework */; };
+		18F81F8A1D26DA61000FF003 /* CloudKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F81F891D26DA61000FF003 /* CloudKitManager.swift */; };
+		18F81F8C1D26DDE6000FF003 /* MessageDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F81F8B1D26DDE6000FF003 /* MessageDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		182D7E491D25CDEF00CA877E /* MessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageController.swift; sourceTree = "<group>"; };
-		18343E721D258EB1007DC404 /* ModelLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelLayer.swift; sourceTree = "<group>"; };
-		18343E741D25905A007DC404 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		18343E741D25905A007DC404 /* MessageObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageObject.swift; sourceTree = "<group>"; };
+		184D8B1A1D26D2A2001BE66A /* CloudKitData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitData.swift; sourceTree = "<group>"; };
 		189C68551D1DF1730023BA1F /* MorseChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorseChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		189C68581D1DF1730023BA1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		189C68581D1DF1730023BA1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ChatClub/AppDelegate.swift; sourceTree = "<group>"; };
 		189C685D1D1DF1730023BA1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		189C685F1D1DF1730023BA1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189C68621D1DF1730023BA1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -34,6 +37,10 @@
 		18C48CF01D24B60800411CF6 /* GroupsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
 		18C48CF21D24B61E00411CF6 /* DirectoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectoryViewController.swift; sourceTree = "<group>"; };
 		18C48CF41D24B63000411CF6 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		18F81F861D26D9BE000FF003 /* MorseChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MorseChat.entitlements; sourceTree = SOURCE_ROOT; };
+		18F81F871D26D9C4000FF003 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		18F81F891D26DA61000FF003 /* CloudKitManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitManager.swift; sourceTree = "<group>"; };
+		18F81F8B1D26DDE6000FF003 /* MessageDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F81F881D26D9C4000FF003 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,8 +66,7 @@
 		18343E701D258A67007DC404 /* ModelObjects */ = {
 			isa = PBXGroup;
 			children = (
-				18343E721D258EB1007DC404 /* ModelLayer.swift */,
-				18343E741D25905A007DC404 /* Message.swift */,
+				18343E741D25905A007DC404 /* MessageObject.swift */,
 			);
 			name = ModelObjects;
 			sourceTree = "<group>";
@@ -71,13 +78,27 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
+		184D8B191D26D200001BE66A /* CloudKit */ = {
+			isa = PBXGroup;
+			children = (
+				184D8B1A1D26D2A2001BE66A /* CloudKitData.swift */,
+				18F81F891D26DA61000FF003 /* CloudKitManager.swift */,
+			);
+			name = CloudKit;
+			sourceTree = "<group>";
+		};
 		189C684C1D1DF1730023BA1F = {
 			isa = PBXGroup;
 			children = (
-				182D7E481D25CDDA00CA877E /* Controllers */,
-				18343E711D258A75007DC404 /* Views */,
+				18F81F871D26D9C4000FF003 /* CloudKit.framework */,
+				189C68581D1DF1730023BA1F /* AppDelegate.swift */,
+				18C48CF61D24B64500411CF6 /* ViewControllers */,
 				18343E701D258A67007DC404 /* ModelObjects */,
-				189C68571D1DF1730023BA1F /* ChatClub */,
+				189C68571D1DF1730023BA1F /* MorseChat */,
+				18343E711D258A75007DC404 /* Views */,
+				182D7E481D25CDDA00CA877E /* Controllers */,
+				184D8B191D26D200001BE66A /* CloudKit */,
+				18F81F8D1D26DEB5000FF003 /* Core Data */,
 				189C68561D1DF1730023BA1F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,25 +111,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		189C68571D1DF1730023BA1F /* ChatClub */ = {
+		189C68571D1DF1730023BA1F /* MorseChat */ = {
 			isa = PBXGroup;
 			children = (
-				189C68581D1DF1730023BA1F /* AppDelegate.swift */,
-				18C48CF61D24B64500411CF6 /* ViewControllers */,
+				18F81F861D26D9BE000FF003 /* MorseChat.entitlements */,
 				189C685C1D1DF1730023BA1F /* Main.storyboard */,
-				18C48CDD1D24424900411CF6 /* ViewControllers */,
+				189C68641D1DF1730023BA1F /* Info.plist */,
 				189C685F1D1DF1730023BA1F /* Assets.xcassets */,
 				189C68611D1DF1730023BA1F /* LaunchScreen.storyboard */,
-				189C68641D1DF1730023BA1F /* Info.plist */,
 			);
+			name = MorseChat;
 			path = ChatClub;
-			sourceTree = "<group>";
-		};
-		18C48CDD1D24424900411CF6 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 		18C48CF61D24B64500411CF6 /* ViewControllers */ = {
@@ -120,6 +133,15 @@
 				18C48CEE1D24B5FC00411CF6 /* ProfileViewController.swift */,
 			);
 			name = ViewControllers;
+			path = ChatClub;
+			sourceTree = "<group>";
+		};
+		18F81F8D1D26DEB5000FF003 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				18F81F8B1D26DDE6000FF003 /* MessageDataManager.swift */,
+			);
+			name = "Core Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +176,12 @@
 				TargetAttributes = {
 					189C68541D1DF1730023BA1F = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3FXGJUET7Y;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -194,13 +222,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				18C48CF31D24B61E00411CF6 /* DirectoryViewController.swift in Sources */,
-				18343E731D258EB1007DC404 /* ModelLayer.swift in Sources */,
+				184D8B1B1D26D2A2001BE66A /* CloudKitData.swift in Sources */,
 				18C48CEF1D24B5FC00411CF6 /* ProfileViewController.swift in Sources */,
+				18F81F8A1D26DA61000FF003 /* CloudKitManager.swift in Sources */,
 				182D7E4A1D25CDEF00CA877E /* MessageController.swift in Sources */,
+				18F81F8C1D26DDE6000FF003 /* MessageDataManager.swift in Sources */,
 				189C68591D1DF1730023BA1F /* AppDelegate.swift in Sources */,
 				18C48CF51D24B63000411CF6 /* ChatViewController.swift in Sources */,
 				18C48CF11D24B60800411CF6 /* GroupsViewController.swift in Sources */,
-				18343E751D25905A007DC404 /* Message.swift in Sources */,
+				18343E751D25905A007DC404 /* MessageObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +343,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MorseChat.entitlements;
 				INFOPLIST_FILE = ChatClub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mason.MorseChat;
@@ -324,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MorseChat.entitlements;
 				INFOPLIST_FILE = ChatClub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mason.MorseChat;
