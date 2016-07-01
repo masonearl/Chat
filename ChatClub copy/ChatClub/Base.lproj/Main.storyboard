@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Chat View Controller-->
+        <scene sceneID="69H-DQ-gdc">
+            <objects>
+                <viewController id="fQ0-RQ-7Jh" userLabel="Chat View Controller" customClass="ChatViewController" customModule="ChatClub" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Rre-vW-xJl"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZjD-ci-Gwa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fhM-Hu-pOA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Chat" id="mJq-6a-1Ho">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="Zbf-IB-1G4">
+                            <connections>
+                                <action selector="addPersonButton:" destination="fQ0-RQ-7Jh" id="Q8v-lx-5MD"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="addPersonButton" destination="Zbf-IB-1G4" id="IoS-KL-eJe"/>
+                        <segue destination="k7T-4T-PVk" kind="show" id="ho5-lE-mvF"/>
+                        <segue destination="hVN-UF-eow" kind="show" id="Y2d-CF-GP9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FtS-As-3WG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3798" y="-1626"/>
+        </scene>
+        <!--Profile View Controller-->
+        <scene sceneID="HBA-9N-LEX">
+            <objects>
+                <viewController id="b7i-Hu-KlB" userLabel="Profile View Controller" customClass="ProfileViewController" customModule="ChatClub" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="a1Z-Le-Ja1"/>
+                        <viewControllerLayoutGuide type="bottom" id="VJx-QH-7fd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="k23-TO-pgg">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Profile" id="Oda-pd-DHe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Wi-gn-ccD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3798" y="-218"/>
+        </scene>
+        <!--Directory View Controller-->
+        <scene sceneID="2MU-Ia-ide">
+            <objects>
+                <viewController id="hVN-UF-eow" userLabel="Directory View Controller" customClass="DirectoryViewController" customModule="ChatClub" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VQc-Ik-QCV"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZGw-rn-HzI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Sp5-Iz-dVn">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Directory" id="34I-tW-kjq"/>
+                    <connections>
+                        <segue destination="b7i-Hu-KlB" kind="show" id="AuD-5Z-9gh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J2H-un-fc1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3798" y="-914"/>
+        </scene>
+        <!--Groups View Controller-->
+        <scene sceneID="OrN-dJ-4MK">
+            <objects>
+                <viewController id="k7T-4T-PVk" userLabel="Groups View Controller" customClass="GroupsViewController" customModule="ChatClub" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dIo-Gq-4lQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Oct-Ah-byp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="g80-ph-WkF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Groups" id="rOr-M8-n9C"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e1W-me-wX7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4488" y="-1626"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="skm-sg-tgj">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dRL-2H-wyG" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xQl-aa-Re5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="fQ0-RQ-7Jh" kind="relationship" relationship="rootViewController" id="ubW-iy-zfV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1sI-To-YnG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3100" y="-1626"/>
+        </scene>
+    </scenes>
+</document>
